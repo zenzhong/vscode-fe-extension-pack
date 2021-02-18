@@ -1,0 +1,49 @@
+{
+	"name": "fe-extension-pack",
+	"displayName": "FE Extension Pack",
+	"description": "用于快速搭建前端开发环境",
+	"version": "1.0.0",
+	"publisher": "qingzz",
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zzq210218/vscode-fe-extension-pack.git"
+	},
+	"scripts": {
+		"build": "vsce package",
+		"release": "vsce publish"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"vsce": "^1.85.0"
+	},
+	"icon": "images/icon.png",
+	"extensionPack": [
+		"ms-ceintl.vscode-language-pack-zh-hans",
+		"formulahendry.code-runner",
+		"msjsdiag.debugger-for-chrome",
+		"dbaeumer.vscode-eslint",
+		"stylelint.vscode-stylelint",
+		"donjayamanne.githistory",
+		"alefragnani.project-manager",
+		"eamodio.gitlens",
+		"techer.open-in-browser",
+		"wix.vscode-import-cost",
+		"octref.vetur",
+		"editorconfig.editorconfig",
+		"yzhang.markdown-all-in-one",
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker",
+		"pranaygp.vscode-css-peek",
+		"oderwat.indent-rainbow",
+		"visualstudioexptteam.vscodeintellicode",
+		"ritwickdey.liveserver",
+		"quicktype.quicktype",
+		"aaron-bond.better-comments"
+	]
+}

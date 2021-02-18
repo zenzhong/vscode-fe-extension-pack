@@ -1,13 +1,10 @@
-# FE Extension Pack
+# Change Log
 
-本插件用于快速搭建前端开发环境，安装后请重启激活新插件。
+请在当前文档查看版本更新日志，每次更新后请重启激活新插件。
 
-## Links
+## [1.0.0]
 
-* 通过[VS Code 应用市场](https://marketplace.visualstudio.com/items?itemName=qingzz.fe-extension-pack)安装
-* 通过[GitHub](https://github.com/zzq210218/vscode-fe-extension-pack)
-
-## Extensions Included
+- 第一版Extension Pack，包含依赖：
 
 - [Chinese (Simplified) Language Pack for Visual Studio Code
 ](https://marketplace.visualstudio.com/items?itemName=ms-ceintl.vscode-language-pack-zh-hans)
